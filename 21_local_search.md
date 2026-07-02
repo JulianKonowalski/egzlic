@@ -18,4 +18,4 @@ Głównie uczenie maszynowe oraz SAT solvery i pokrewne.
 
 ## Przykłady algorytmów
 
-Hill climb, symulowane wyżarzanie
+Hill climb, symulowane wyżarzanie, Gradient descent

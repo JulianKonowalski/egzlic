@@ -65,3 +65,12 @@ zwiększa czy zostaje ta sama? Zakres odpowiedzi częstotliwościowej jest szers
 Poza tym już na wektorze widać dziury w tej logice - operator mnożenia oznaczałby
 iloczyn skalarny czy wektorowy dwóch wektorów? Nie musimy przechodzić przez takie
 rozterki kiedy nazwa funkcji mówi nam bardzo jasno o wyniku operacji.
+
+Addendum (Sławek Brzózka): Poza algebrą liniową i operatorami porównania, 
+które są względnie mało kontrowersyjne, przydatne potrafią być operatory indeksowania
+(`[]`, `()`) przy implementacji własnych kontenerów. Z kolei operatory `*` i `->` są
+sensowne w kontekście iteratorów lub smart pointerów, ponieważ jedynie odtwarzają
+zachowanie wskaźników dobrze znane z C. Poza tym dołączam się do krytyki; przez
+dziwaczne pomysły z `<<` C++ miał najbardziej składniowo przekombinowane "Hello World"
+ze wszystkich rozsądnych języków programowania. Na szczęście ktoś poszedł 
+po rozum do głowy i dodali `<print>` w C++23.
