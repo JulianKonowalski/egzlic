@@ -2,7 +2,7 @@
 
 ## Dolne ograniczenie
 
-N(logn)
+O(n log(n))
 
 ## Quick sort
 
